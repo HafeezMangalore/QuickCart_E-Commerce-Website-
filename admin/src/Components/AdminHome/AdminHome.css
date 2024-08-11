@@ -1,0 +1,15 @@
+/* src/Components/AdminHome/AdminHome.css */
+.admin-home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .admin-home h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .admin-home p {
+    font-size: 1.2em;
+  }
+  

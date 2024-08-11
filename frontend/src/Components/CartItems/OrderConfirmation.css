@@ -1,0 +1,67 @@
+.order-confirmation {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align the content */
+}
+
+.order-confirmation p {
+    font-size: 1.2em; /* Set the font size to 1.2em (adjust as needed) */
+    text-align: center; /* Center align the text */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+    color: olivedrab;
+    font-weight: 600;
+}
+
+.order-confirmation-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.order-confirmation-content {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.order-confirmation-image {
+    width: 300px; /* Set the width of the image */
+    height: 300px; /* Set the height of the image */
+    margin: 0 auto 20px; /* Center the image horizontally and add margin at the bottom */
+    display: block; /* Ensure the image is displayed as a block element */
+    border-radius: 50%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .order-confirmation {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .order-confirmation p {
+        font-size: 1em; /* Adjust font size */
+        margin-bottom: 8px; /* Adjust bottom margin */
+    }
+
+    .order-confirmation-header {
+        padding: 8px 16px;
+    }
+
+    .order-confirmation-content {
+        padding: 10px;
+        font-size: 16px; /* Adjust font size */
+        line-height: 1.4;
+    }
+
+    .order-confirmation-image {
+        width: 200px; /* Adjust width for smaller screens */
+        height: 200px; /* Adjust height for smaller screens */
+    }
+}
